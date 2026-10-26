@@ -198,7 +198,6 @@ class TestBodyReplay:
         assert first["body"] == second["body"] == body
 
 
-
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -322,5 +321,3 @@ class TestStreamingResponses:
 
         assert response.status_code == 200
         assert response.content == b"ab"
-
-
